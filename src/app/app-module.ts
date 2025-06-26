@@ -6,13 +6,15 @@ import { App } from './app';
 import { Header } from './shared/header/header';
 import { Footer } from './shared/footer/footer';
 import { Portafolio } from './pages/portafolio/portafolio';
+import { About } from './pages/about/about';
 
 @NgModule({
   declarations: [
     App,
     Header,
     Footer,
-    Portafolio
+    Portafolio,
+    About
   ],
   imports: [
     BrowserModule,
