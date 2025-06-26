@@ -7,6 +7,7 @@ import { Header } from './shared/header/header';
 import { Footer } from './shared/footer/footer';
 import { Portafolio } from './pages/portafolio/portafolio';
 import { About } from './pages/about/about';
+import { Item } from './pages/item/item';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { About } from './pages/about/about';
     Header,
     Footer,
     Portafolio,
-    About
+    About,
+    Item
   ],
   imports: [
     BrowserModule,
